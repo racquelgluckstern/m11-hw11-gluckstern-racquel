@@ -1,0 +1,101 @@
+:root {
+    --bs-primary: #6a0dad;
+    --bs-primary-rgb: 106, 13, 173;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #faf7ff;
+
+}
+
+.bg-primary {
+    background-color: var(--bs-primary) !important;
+}
+
+.btn-primary {
+    background-color: var(--bs-primary) !important;
+    border-color: var(--bs-primary) !important;
+}
+
+
+.text-primary {
+    color: #7b3fe4 !important;
+}
+
+
+
+.btn-primary:hover {
+    background-color: #682fc2 !important;
+    border-color: #5828a8 !important;
+}
+
+
+.navbar-brand,
+.nav-link {
+    font-weight: 500;
+}
+
+.nav-link.active,
+.nav-link:hover {
+    color: #d9c8ff !important;
+}
+
+
+header h1 {
+    color: black;
+}
+
+header p {
+    color: #6d4eb8;
+}
+
+h2.fw-bold {
+    color: black;
+}
+
+
+.card {
+    border: 1px solid #e6d9ff;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 20px rgba(123, 63, 228, 0.15);
+}
+
+.card-title {
+    color: #5a1fc1;
+}
+
+.card-text {
+    color: #444;
+}
+
+#goals .bg-light {
+    background-color: #f4eeff !important;
+    border-left: 4px solid #7b3fe4;
+}
+
+footer {
+    background-color: #7b3fe4 !important;
+}
+
+.btn {
+    padding: 10px 20px;
+    border-radius: 6px;
+}
+
+img.rounded {
+    border: 3px solid #e9ddff;
+}
+
+
+@media (max-width: 767px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    .btn {
+        width: 100%;
+
+    }
+}
